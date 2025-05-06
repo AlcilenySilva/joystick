@@ -12,4 +12,12 @@ A cada nova leitura, ele envia uma requisição POST com os dados para o servido
 
 O servidor armazena os últimos valores recebidos.
 
-A rota principal (/) exibe a posição X, Y e a direção em uma página HTML que é recarregada automaticamente a cada segundo para mostrar os dados mais recentes.
+A rota principal (/) exibe a posição X, Y e a direção em uma página HTML que é recarregada automaticamente a cada segundo para mostrar os dados mais recentes. 
+
+Como Executar 
+ Instale as dependências:
+ npm install Inicie o servidor
+npm run start
+Compile e carregue o firmware com o código C na placa.
+Verifique se o IP e a porta do servidor estão corretos no código da placa.
+Acesse no navegador http://<IP_DA_MAQUINA>:3000
